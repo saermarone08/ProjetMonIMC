@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 30px;
+}
+
+h1 {
+    color: #1f4e79;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eef3f8;
+}
+
+/* Couleur de l'interprétation */
+.normal {
+    color: #1a7f37;
+    font-weight: bold;
+}
+
+.alerte {
+    color: #b3261e;
+    font-weight: bold;
+}
+
+/* Boutons et liens en forme de bouton */
+.bouton {
+    display: inline-block;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1f4e79;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bouton-danger {
+    background-color: #b3261e;
+}
+
+.bouton-gris {
+    background-color: #6c757d;
+}
+
+/* Formulaires */
+form.fiche {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #cccccc;
+}
+
+form.fiche label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+form.fiche input[type="text"],
+form.fiche input[type="number"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.erreur {
+    color: #b3261e;
+    font-weight: bold;
+}
